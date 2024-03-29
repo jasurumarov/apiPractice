@@ -1,0 +1,31 @@
+@use '../abstracts' as *;
+
+body {
+    main {
+        .admin-section {
+            margin: 50px auto;
+            &__content {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                h1 {
+                    font-size: 32px;
+                    margin-bottom: 600px;
+                }
+                button {
+                    width: 86%;
+                    padding: 20px 0;
+                    font-size: 20px;
+                    background: white;
+                    border-radius: 12px;
+                    border: 1px solid #ddd;
+                    cursor: pointer;
+                    &:hover {
+                        background: #f9f9f9;
+                    }
+                }
+            }
+        }
+    }
+}
